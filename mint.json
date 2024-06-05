@@ -48,26 +48,16 @@
       ]
     },
     {
-      "group": "Create Telegram Bot",
+      "group": "Telegram Bot",
       "pages": [
         "pages/create-bot",
-        "pages/create-web-app"
-      ]
-    },
-    {
-      "group": "Connect bot to Supastore",
-      "pages": [
-        "pages/connect-bot"
-      ]
-    },
-    {
-      "group": "Customize your bot",
-      "pages": [
+        "pages/create-web-app",
+        "pages/connect-bot",
         "pages/customize-bot"
       ]
     },
     {
-      "group": "Create Products",
+      "group": "Products",
       "pages": [
         "pages/create-products"
       ]
@@ -83,8 +73,6 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "telegram": "https://t.me/matveyaliev"
   }
 }
