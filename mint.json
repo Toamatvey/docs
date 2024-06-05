@@ -18,68 +18,64 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:matvey@ditch-concept.com"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://admin.ditch-concept.com/en/store"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
+
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "icon": "telegram",
+      "url": "https://t.me/matveyaliev"
+    },{
+      "name": "Support",
+      "icon": "envelope",
+      "url": "https://t.me/matveyaliev"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "introduction"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Create Telegram Bot",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "pages/create-bot",
+        "pages/create-web-app"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Connect bot to Supastore",
       "pages": [
-        "api-reference/introduction"
+        "pages/connect-bot"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Customize your bot",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "pages/customize-bot"
+      ]
+    },
+    {
+      "group": "Create Products",
+      "pages": [
+        "pages/create-products"
+      ]
+    },
+    {
+      "group": "Connect Payment Gateway",
+      "pages": [
+        "pages/connect-payment-gateway",
+        "pages/connect-crypto-gateway",
+        "pages/connect-telegram-payment-gateway",
+        "pages/connect-wallet-pay"
       ]
     }
   ],
